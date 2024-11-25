@@ -1,0 +1,92 @@
+/* General Styles for Home Page */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #ff7a18, #af002d 80%);
+}
+
+/* Scoped Styles for the Home App */
+.home-app {
+  text-align: center;
+  max-width: 600px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Header Styles */
+.home-app h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.home-app p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+/* Features Section */
+.home-app .features h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.home-app .features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.home-app .features li {
+  font-size: 1rem;
+  text-align: left;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.home-app .features li::before {
+  content: "✔️";
+  margin-right: 10px;
+}
+
+/* Buttons (CTA Section) */
+.home-app .cta button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+
+.home-app .cta button:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
+
+/* Footer Section */
+.home-app footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.home-app footer a {
+  color: orange;
+  text-decoration: none;
+}
+
+.home-app footer a:hover {
+  text-decoration: underline;
+}

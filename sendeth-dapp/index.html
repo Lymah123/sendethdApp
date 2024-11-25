@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SendETH DApp</title>
+  <link rel="icon" href="/logo.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>SendETH DApp</h1>
+    <button id="homePage">Back to Home</button>
+    <button id="connectWallet">
+      <i class="fas fa-wallet"></i> Connect Wallet
+    </button>
+    <p id="account"></p>
+    <p id="balance"></p>
+    <div id="sendETH">
+      <input type="text" id="recipient" placeholder="Recipient Address" />
+      <input type="text" id="amount" placeholder="Amount in ETH" />
+      <button id="send">Send ETH</button>
+    </div>
+    <p id="status"></p>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
