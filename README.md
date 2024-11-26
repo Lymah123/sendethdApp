@@ -56,7 +56,7 @@ cd sendeth-dapp
 
 3. Start development sever
 
-`npm run start`
+`npm run dev`
 
 4. Open the app in your browser
 
